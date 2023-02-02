@@ -29,6 +29,12 @@ body{
     justify-content: center;
     min-height: 100vh;
 }
+.sr-only:not(:focus):not(:active) {
+    clip-path: inset(50%);
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap; 
+  }
 main{
     display: flex;
     flex-direction: column;
@@ -105,6 +111,7 @@ button{
     justify-content: center;
     align-self: flex-end;
     margin-bottom: auto;
+    cursor: pointer;
 }
 button:hover{
     background-color: var(--darkBlue);
