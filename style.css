@@ -1,0 +1,150 @@
+ @import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;1,9..144,500;1,9..144,700&family=Montserrat:ital,wght@0,500;0,700;1,500&display=swap');
+
+:root{
+    --darkCyan: hsl(158, 36%, 37%);
+    --creamShade: hsl(30, 38%, 92%);
+    --darkBlue: hsl(212, 21%, 14%);
+    --grayishBlue: hsl(228, 12%, 48%);
+    --whiteShade: hsl(0, 0%, 100%);
+    --font1: 'Fraunces', serif;
+    --font2: 'Montserrat', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.attribution {
+     font-size: 11px; text-align: center; 
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
+body{
+    background-color: var(--creamShade);
+    font-family: var(--font2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 350px;
+    min-height: 100%;
+    border-radius: 10px;
+    background-color: var(--whiteShade);
+    margin-bottom: 1rem;
+    padding-bottom: 0.8rem;
+}
+.product-image{
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+
+}
+.description{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+
+}
+.description h2{
+    font-family: var(--font2);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 0.4rem;
+    color: var(--grayishBlue);
+
+}
+.description h3{
+    font-family: var(--font1);
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 10px 0;
+}
+.description p{
+    font-weight: 500;
+    font-size: 0.9rem;
+    margin: 10px 0;
+    line-height: 1.4rem;
+    color: var(--grayishBlue);
+}
+.price-tag{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.price-tag h3{
+    color: var(--darkCyan);
+}
+.price-tag span{
+    text-decoration: line-through;
+    color: var(--grayishBlue);
+    font-size: 0.8rem;
+}
+button{
+    background-color: var(--darkCyan);
+    border: none;
+    color: var(--whiteShade);
+    width: 100%;
+    padding: 15px;
+    font-size: 0.9rem;
+    border-radius: 10px;
+    font-family: var(--font2);
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    align-self: flex-end;
+    margin-bottom: auto;
+}
+button:hover{
+    background-color: var(--darkBlue);
+}
+
+@media screen and (min-width: 800px) {    
+    main{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        max-width: 800px;
+        align-items: center;
+        justify-content: center;
+        height: fit-content;
+        padding-bottom: 0;
+    }
+    section{
+        flex: 1;
+    }
+    .product-image{
+        object-fit: contain;
+        width: 100%;
+        height: 40%;
+        object-fit: cover;
+        border-radius: 10px 10px 0 0;
+        border-radius: 10px 0 0 10px;
+    }
+    .description{
+        padding: 15px;
+        flex:1;
+        gap: 1.6rem;
+        font-size: larger;
+    }
+    .description p{
+        font-size: 1rem;
+        line-height: 2.5rem;
+    }
+    .description h3{
+        font-size: 2.5rem;
+
+    }
+
+}
