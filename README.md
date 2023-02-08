@@ -52,7 +52,7 @@ Would like to have a more interactive eccomerce platform like this that leads to
 
 - Website - [cindykandie](https://cindykandie.github.io/portfolio)
 - Frontend Mentor - [@cindykandie](https://www.frontendmentor.io/profile/cindykandie)
-- Twitter - [@cindykandie](https://www.twitter.com/cindy_kandie)
+- Twitter - [@cindy_kandie](https://www.twitter.com/cindy_kandie)
 - LinkedIn - [@cindykandie](https://www.linkedin.com/in/cindykandie)
 
 
