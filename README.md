@@ -1,6 +1,5 @@
 
-# Frontend Mentor - QR code component solution
-# product preview card component
+# Frontend Mentor - Product Preview card component
 This project is a collaborative learning experience among four mentees and their mentor(me) 😊 and here is a link to the challenge ie the [inspiration design](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
 
 ## Table of contents
@@ -16,7 +15,7 @@ This project is a collaborative learning experience among four mentees and their
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+
 
 ## Overview
 
